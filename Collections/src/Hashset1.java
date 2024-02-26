@@ -30,8 +30,11 @@ public class Hashset1 {
         copy1.retainAll(liste2);
         System.out.println(copy1);
 
+    }
 
-
+    @Override
+    public boolean equals(Object o){
+        
     }
 
 }
