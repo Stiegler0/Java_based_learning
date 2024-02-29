@@ -38,6 +38,21 @@ public class Livre {
         return Objects.hash(titre,auteur);
    }
 
+   @Override
+   public String toString(){
+        return "Titre: " + titre + " , Auteur: " + auteur;
+   }
+
+   /*
+   @Override
+    public String toString() {
+        return "Livre{" +
+                "titre='" + titre + '\'' +
+                ", auteur='" + auteur + '\'' +
+                '}';
+    }
+    */
+
    public static void main(String[] args){
         Livre ob1 = new Livre("T1","A1");
         Livre ob2 = new Livre("T1","A1");

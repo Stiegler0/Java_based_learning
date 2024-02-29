@@ -34,7 +34,7 @@ public class Hashset1 {
 
     @Override
     public boolean equals(Object o){
-        
+        return true;
     }
 
 }
